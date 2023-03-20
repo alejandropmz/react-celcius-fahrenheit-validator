@@ -1,0 +1,19 @@
+.counter {
+  padding: 20px;
+  border: solid red 2px;
+  border-radius: 5px;
+  margin: auto;
+  width: 20%;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+}

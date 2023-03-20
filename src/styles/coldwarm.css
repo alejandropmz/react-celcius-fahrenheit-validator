@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  border: red solid 4px;
+  min-height: 450px ;
+  background: wheat;
+  color: orange;
+  margin: 50px auto;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+#color {
+  color: red;
+  text-align: center;
+}
+
+
+.icon .bi-shuffle {
+  cursor: pointer;
+  border: orange solid 2px;
+  background: orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+.icon .bi-shuffle:active {
+  border: red solid 2px;
+  background: red;
+  color: white;
+  transition: all ease-in 0.1s;
+}
+
+form div {
+  padding: 5px 10px;
+  background: red;
+  color: white;
+  cursor: default;
+}
+
+input {
+  padding: 5px 10px;
+  border: orange 2px solid;
+}
+
+input::placeholder:focus {
+  border: solid red 2px;
+  color: aqua;
+}
